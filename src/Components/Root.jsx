@@ -1,5 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 const Root = () => {
-    return <div></div>;
+    return (
+        <div className="font-display">
+            <Outlet />
+        </div>
+    );
 };
 
 export default Root;
