@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Navbar from "../Header/Navbar";
 import Category from "../Main/Category";
 import News from "../Main/News";
+import RightSideNav from "../Main/RightSideNav";
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
                         <News />
                     </div>
                     <div className="">
-                        <Category />
+                        <RightSideNav />
                     </div>
                 </div>
             </div>

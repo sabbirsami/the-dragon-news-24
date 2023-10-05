@@ -7,48 +7,49 @@ const Category = () => {
             <div>
                 <nav>
                     <ul className=" pt-3">
-                        <li className="px-6 py-3  bg-gray-200">
+                        <li className="px-6 py-3 border-b  bg-gray-200">
                             <NavLink to={"/national-news"}>
                                 National News
                             </NavLink>
                         </li>
-                        <li className="px-6 py-3 ">
+                        <li className="px-6 py-3 border-b ">
                             <NavLink to={"/national-news"}>
                                 Breaking News
                             </NavLink>
                         </li>
-                        <li className="px-6 py-3 ">
+                        <li className="px-6 py-3 border-b ">
                             <NavLink to={"/national-news"}>
                                 Regular News
                             </NavLink>
                         </li>
-                        <li className="px-6 py-3 ">
+                        <li className="px-6 py-3 border-b ">
                             <NavLink to={"/national-news"}>
                                 International News
                             </NavLink>
                         </li>
-                        <li className="px-6 py-3 ">
+                        <li className="px-6 py-3 border-b ">
                             <NavLink to={"/national-news"}>Sports News</NavLink>
                         </li>
-                        <li className="px-6 py-3 ">
+                        <li className="px-6 py-3 border-b ">
                             <NavLink to={"/national-news"}>
                                 Entertainment
                             </NavLink>
                         </li>
-                        <li className="px-6 py-3 ">
+                        <li className="px-6 py-3 border-b ">
                             <NavLink to={"/national-news"}>
                                 Cultural News
                             </NavLink>
                         </li>
-                        <li className="px-6 py-3 ">
+                        <li className="px-6 py-3 border-b ">
                             <NavLink to={"/national-news"}>Arts</NavLink>
                         </li>
-                        <li className="px-6 py-3 ">
+                        <li className="px-6 py-3 border-b ">
                             <NavLink to={"/national-news"}>All News</NavLink>
                         </li>
                     </ul>
                 </nav>
             </div>
+            <hr />
         </div>
     );
 };
