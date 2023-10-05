@@ -1,9 +1,11 @@
+import BreakingNews from "../Header/BreakingNews";
 import Header from "../Header/Header";
 
 const Home = () => {
     return (
         <div>
-            <Header/>
+            <Header />
+            <BreakingNews />
         </div>
     );
 };
